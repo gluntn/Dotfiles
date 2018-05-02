@@ -142,4 +142,4 @@ bindsym $mod+r mode "resize"
 
 exec_always --no-startup-id "~/scripts/polybar-start.sh"
 exec_always --no-startup-id feh --bg-fill ~/Nedlastinger/gorillaz-1525188258566-8429.jpg
-exec_always --no-startup-id compton
+#exec_always --no-startup-id compton

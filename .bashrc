@@ -2,8 +2,9 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
-color='\e[0;30m\e[48;5;48m';
-ecolor='\e[0m';
+color='\[\033[38;5;234m\]\[\033[48;5;49m\]';
+color2='\[\033[38;5;49m\]';
+ecolor='\[\033[0m\]';
 
 # If not running interactively, don't do anything
 case $- in
@@ -98,6 +99,7 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+alias gå-heim='cd ~'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -128,4 +130,4 @@ if [ -x /usr/bin/mint-fortune ]; then
 fi
 
 
-export PS1="$color \u[\h$] @ \W \n > $ecolor "
+export PS1="$color \u[\h$] @ \W $ecolor\n$color2˪$ecolor "

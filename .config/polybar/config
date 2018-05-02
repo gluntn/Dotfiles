@@ -13,9 +13,6 @@ background-alt = #444444
 foreground = #11ffbb
 foreground-alt = #55
 alert-bg = #ff1135
-primary = #ffb52a
-secondary = #e60053
-alert = #bd2c40
 
 [global/wm]
 margin-top = 5
@@ -117,7 +114,6 @@ icon-seekf = 
 icon-random = 
 icon-repeat = 
 
-toggle-on-foreground = ${colors.primary}
 toggle-off-foreground = #66
 
 [module/cpu]
