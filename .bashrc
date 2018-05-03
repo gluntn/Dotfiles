@@ -130,4 +130,4 @@ if [ -x /usr/bin/mint-fortune ]; then
 fi
 
 
-export PS1="$color \u[\h$] @ \W $ecolor\n$color2˪$ecolor "
+export PS1="$color \u[\h$] @ \$PWD $ecolor\n$color2˪$ecolor "
